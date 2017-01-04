@@ -2,7 +2,7 @@
 def even_fibonacci_sum(limit)
     n1, result = [0, 0]
     n2 = 1
-    while result < limit
+    loop do
       total = n1 + n2
       break if total > limit
       if total.even?
